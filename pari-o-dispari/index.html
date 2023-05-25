@@ -8,7 +8,25 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="inputs">
+            <input type="number" name="numero-scelto" id="numero-scelto" placeholder="Scegli un numero TRA 0-5" max="5" min="0">
+            <select name="pari-dispari" id="pari-dispari">
+                <option value="" disabled selected>Scegli un'opzione</option>
+                <option value="pari">Pari</option>
+                <option value="dispari">Dispari</option>
+            </select>
+            <button id="send">Manda i dati</button>
+        </div>
+        <h2>IL NUMERO DEL PC</h2>
+        <div id="numero-pc">
+            IL COMPUTER GENERER&Aacute; UN NUMERO CASUALE
+        </div>
+        <h2>RISULTATO</h2>
+        <div id="esito">
+            VERR&Aacute; VISUALIZZATO L'ESITO DEL GIOCO
+        </div>
+    </div>    
     <script src="./script/script.js"></script>
 </body>
 </html>

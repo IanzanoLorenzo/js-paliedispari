@@ -3,3 +3,51 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 60%;
+    background-color: rgb(75, 72, 63);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(73, 73, 73);
+    color: white;
+}
+
+.inputs{
+    width: 100%;
+    text-align: center;
+}
+
+#numero-pc{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(158, 158, 158);
+}
+
+#esito{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(158, 158, 158);
+    text-transform: uppercase;
+}
+button {
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+#numero-scelto, select{
+    width: 200px;
+    margin-right: 10px;
+    height: 100%;
+}
