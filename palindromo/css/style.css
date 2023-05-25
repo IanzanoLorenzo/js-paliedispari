@@ -18,6 +18,7 @@ body{
     transform: translate(-50%, -50%);
     border-radius: 30px;
     box-shadow: 0 0 20px rgb(73, 73, 73);
+    color: white;
 }
 h1 {
     width: 100%;
@@ -32,8 +33,19 @@ h1 {
 #send-parola{
     margin-left: 10px;
 }
+input, select{
+    width: 200px;
+    margin-right: 10px;
+    height: 100%;
+}
 
 h2{
     margin: 40px 0;
     text-transform: uppercase;
+    color: rgb(158, 158, 158);
+}
+
+button {
+    padding: 7px 20px;
+    border-radius: 20px;
 }
