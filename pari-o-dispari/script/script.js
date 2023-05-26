@@ -1,17 +1,18 @@
 "use strict";
-
+//definisco le costanti per l'input e l'output delle informazioni
 const sendButton = document.getElementById('send');
 const numberInput = document.getElementById('numero-scelto');
 const selectInput = document.getElementById('pari-dispari');
 const esito = document.getElementById('esito')
 const numeroShow = document.getElementById('numero-pc')
 
+//funzione per l'estrazione di un numero casuale
 function numeroCasuale(){
     let randomNumber = Math.floor(Math.random() * 6);
     return randomNumber;
 }
 
-
+//funzione per ottenere il risultato della somma dei numeri
 function risultato(number,numberPc){
     let result;
     let sum = number + numberPc
@@ -23,6 +24,7 @@ function risultato(number,numberPc){
     return result;
 }
 
+//inserimento dei valori inseriti come variabile e successivo controllo del risultato del gioco
 sendButton.addEventListener('click', function(){
     
     let numeroScelto = parseInt(numberInput.value)
